@@ -44,7 +44,7 @@
                      "corgi-bindings/corgi-signals.el"
                      "corgi-bindings/user-keys-template.el"
                      "corgi-bindings/user-signals-template.el")
-             :repo "corgi-emacs/corgi-packages"))
+             :repo "rgm/corgi-packages"))
 
           (mapcar
            (lambda (pkg)
@@ -53,7 +53,7 @@
                :host github
                :branch "main"
                :files (,(concat (symbol-name pkg) "/" (symbol-name pkg) ".el"))
-               :repo "corgi-emacs/corgi-packages"))
+               :repo "rgm/corgi-packages"))
 
            '(corgi-defaults
              corgi-editor

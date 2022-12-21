@@ -131,7 +131,7 @@
 
 (use-package expand-region)
 
-(use-package string-edit)
+; (use-package string-edit)
 
 ;; silence byte compiler
 (require 'evil)
